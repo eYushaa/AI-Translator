@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "general": {
+    "ui_language": "tr",
+    "start_with_windows": false,
+    "minimize_to_tray": true,
+    "notify_on_done": true,
+    "auto_detect_source": true,
+    "keep_original_on_failure": true
+  },
+  "languages": {
+    "preferred_target": "en",
+    "alt_b_target": "",
+    "alt_n_target": "",
+    "source": "auto",
+    "prompt": ""
+  },
+  "ocr": {
+    "engine": "auto",
+    "fallback_to_ai": true,
+    "copy_to_clipboard": false,
+    "show_notification": true,
+    "target_language": ""
+  },
+  "providers": {
+    "active": "google",
+    "auto_fallback": false,
+    "fallback_order": ["lmstudio", "local_llm", "gemini", "google"],
+    "timeout_seconds": 30,
+    "local_llm": {
+      "base_url": "http://localhost:11434/v1",
+      "model": ""
+    },
+    "lmstudio": {
+      "base_url": "http://localhost:1234/v1",
+      "model": ""
+    },
+    "gemini": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "model": "gemini-2.5-flash"
+    },
+    "google": {
+      "use_cloud_api": false
+    }
+  },
+  "hotkeys": {
+    "enabled": true,
+    "alt_b": "Alt+B",
+    "alt_n": "Alt+N",
+    "alt_m": "Alt+M",
+    "alt_v": "Alt+V",
+    "alt_c": "Alt+C",
+    "alt_o": "Alt+O"
+  },
+  "privacy": {
+    "history_enabled": false,
+    "cache_enabled": true
+  }
+}
