@@ -34,7 +34,7 @@ Whether composing emails in Outlook, chatting in Slack/Discord, coding in VS Cod
 You don't need Python, terminals, or complex configurations:
 
 1. Go to the **[Releases](https://github.com/eYushaa/AI-Translator/releases)** section on GitHub.
-2. Download **`AITranslator-Setup.exe`** (Installer) or standalone **`AITranslator.exe`**.
+2. Download **`AITranslator-Setup.exe`**
 3. Run the setup and open the app.
 4. The application starts quietly in your **Windows System Tray** (near the clock). You are ready to translate instantly!
 
